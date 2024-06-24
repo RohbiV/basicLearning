@@ -19,6 +19,8 @@ body{
     border: 2px solid brown;
     border-style: dashed;
     margin: 10px;
+    min-width: 500px;
+    min-height: 500px;
 }
 
 img{
