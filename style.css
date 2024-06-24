@@ -3,3 +3,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: #222;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.container{
+    border: 2px solid brown;
+    border-style: dashed;
+    margin: 10px;
+}
+
+img{
+    background-size: cover;
+    max-width: 500px;
+    max-height: 500px;
+}
+
